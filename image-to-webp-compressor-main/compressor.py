@@ -8,7 +8,7 @@ def all_files(directory):
             yield os.path.join(path, f)
 
 
-files = [f for f in all_files('E:\\新建文件夹\\OneDrive - 同济大学\\github_repos\\blog\\24.网站利用nginx和cf保护后台') # Edit your name
+files = [f for f in all_files('E:\\新建文件夹\\OneDrive - 同济大学\\github_repos\\blog\\23.nat服务器使用cf tunnel建站') # Edit your name
                if f.endswith(('.png', '.jpg', 'jpeg'))]
 
 def convert_to_webp(source):
