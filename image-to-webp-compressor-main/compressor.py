@@ -8,7 +8,7 @@ def all_files(directory):
             yield os.path.join(path, f)
 
 
-files = [f for f in all_files('..\\blog\\typecho搭建artalk评论系统') # Edit your name
+files = [f for f in all_files('..\\blog\\26.使用nomad管理集群-1 单机部署') # Edit your name
                if f.endswith(('.png', '.jpg', 'jpeg'))]
 
 def convert_to_webp(source):
